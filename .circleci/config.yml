@@ -26,6 +26,9 @@ jobs:
       - run:
           name: "Nothing to say"
           command: "echo Today is a good day"
+      - run:
+          name: "What is my name?"
+          command: echo $MY_NAME
 
 
 
